@@ -1,5 +1,5 @@
 
-# Wifi Killer
+# DoS
 
 Bu proje, bir ağ saldırı simülasyonu (DoS - Denial of Service) gerçekleştirmek amacıyla yazılmış bir Python scriptidir. Amacı, hedef alınan modemin IP adresine büyük miktarda veri paketi göndererek, hedef cihazın veya ağın normal çalışmasını aksatmak ya da durdurmaktır.
 
@@ -10,19 +10,19 @@ Bu proje, bir ağ saldırı simülasyonu (DoS - Denial of Service) gerçekleşti
 Projeyi klonlayın
 
 ```bash
-  git clone https://github.com/memirhan/WifiKiller
+  git clone https://github.com/memirhan/DoS
 ```
 
 Proje dizinine gidin
 
 ```bash
-  cd WifiKiller
+  cd DoS
 ```
 
 Programı Çalıştırın
 
 ```bash
-  python wifikiller.py
+  python main.py
 ```
 
   
