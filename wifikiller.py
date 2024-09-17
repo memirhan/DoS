@@ -15,16 +15,9 @@ PURPLE = Fore.BLUE
 CYAN = Fore.CYAN
 RESET = Style.RESET_ALL
 
-print(r"""       
-| |  | (_)/ _(_)  | | / (_) | |          
-| |  | |_| |_ _   | |/ / _| | |1.0_______ 
-| |/\| | |  _| |  |    \| | | |/ _ \ '__|
-\  /\  / | | | |  | |\  \ | | |  __/ |   
- \/  \/|_|_| |_|  \_| \_/_|_|_|\___|_|
-                  {}github.com/memirhan{}
- """.format(GREEN, RESET))
+print("github.com/memirhan\n")
 
-targetIp = input(f"Modeminizin IP adresinizi giriniz {GREEN}(default 192.168.1.1){RESET}: ")
+targetIp = input(f"Hedef IP adresini giriniz {GREEN}(default 192.168.1.1){RESET}: ")
 packetByte = int(input(f"Gönderilecek her bir paketin boyutunu giriniz {GREEN}(max 4096){RESET}: "))
 timeOut = input("Timeout değeri veriniz (örnek 0.001): ").replace(",", ".")
 timeOut = float(timeOut)
